@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: black;
+}
+
+.container
+{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo
+{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #f9004d;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transition:0.5s;
+}
+
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 35px;
+    padding: 10px 25px;
+    transition: transform 0.5s;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: #f9004d;
+    transform: scale(1.1);
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 15%;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem;
+}
+
+.home-content h1{
+    color: white;
+    font-size: 5rem;
+    margin: 20px 0 20px;
+}
+
+.home-content h3{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.home-content h4{
+    color: whitesmoke;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.home-content p{
+    color: darkgray;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+
+.home-social{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.home-social a{    
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 2rem;
+}
+
+.home-content .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+
+
+}
+.about img{
+    height: auto;
+    width:400px;
+
+}
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-text h4{
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.about-text p{
+    font-size: 1rem;
+    color: aliceblue;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 2rem;
+}
+
+.about-text button{
+    background-color: white;
+    color: #f9004d;
+    border: 2px solid transparent;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+
+.about-text button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    transform: scale(1.1);
+}
+
+
+
+
