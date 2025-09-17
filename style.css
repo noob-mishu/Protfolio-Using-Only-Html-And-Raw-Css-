@@ -5,11 +5,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-body{
-    background-color: black;
-}
 
-.container
+.home
 {
     height: 100vh;
     width: 100%;
@@ -24,6 +21,7 @@ nav
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
+    background-color: black;
 }
 
 .logo
@@ -175,7 +173,7 @@ section{
 }
 
 .about-text button{
-    background-color: white;
+    background-color: whitesmoke;
     color: #f9004d;
     border: 2px solid transparent;
     font-weight: bold;
@@ -194,6 +192,67 @@ section{
     border: 2px solid #f9004d;
     transform: scale(1.1);
 }
+
+.Service{
+    background-color: black;
+    width: 100%;
+    padding: 2rem 0;
+
+}
+
+.title h2{
+    color: white;
+    width: 1130px;
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem auto;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.card i{
+    font-size: 50px;
+    color: #f9004d;
+    margin: 25px 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.card h5{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.text p{
+    color: antiquewhite;
+} 
 
 
 
