@@ -206,6 +206,7 @@ section{
     font-size: 4rem;
     text-align: center;
     margin: 2rem auto;
+    text-shadow: white;
 
 }
 
@@ -252,8 +253,83 @@ section{
 
 .text p{
     color: antiquewhite;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 25px;
 } 
 
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 35px;
+    padding: 10px 25px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
 
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+
+.projects
+{
+    background-color: #191919;
+}
+
+.projects h2{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.projects-box 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    place-items: center;
+    gap: 3rem;
+    row-gap: 5rem;
+
+
+}
+
+.projects-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #101010;
+    border: 2px solid #f9004d;
+    border-radius: 3rem;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+    
+
+}
+
+.projects-card img{
+    max-width: 350px;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.projects-card h3{
+    color: white;
+    font-size: 1.6rem;
+}
+
+.projects-card p{
+    color: aliceblue;
+    font-size: 1.2rem;
+}
 
 
