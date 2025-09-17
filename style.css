@@ -115,9 +115,10 @@ section{
 .home-social a{    
     color: white;
     font-size: 1.5rem;
+    padding: 0.3rem;
     margin-right: 1rem;
     text-decoration: none;
-    border: 2px solid white;
+    border: 2px solid #f9004d;
     border-radius: 2rem;
 }
 
@@ -130,8 +131,6 @@ section{
     width: 100%;
     padding: 100px 0;
     background-color: #191919;
-
-
 }
 .about img{
     height: auto;
@@ -278,6 +277,8 @@ section{
 .projects
 {
     background-color: #191919;
+    padding: 2rem 0;
+    width: 100%;
 }
 
 .projects h2{
@@ -332,4 +333,58 @@ section{
     font-size: 1.2rem;
 }
 
+.contact{
+    background-color: black;
+    width: 100%;
+    padding: 2rem 0;
+
+
+}
+.contact h2{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    border: 2px solid #f9004d;
+    margin: 1rem 0;
+}
+
+.footer
+{
+    background-color: #191919;
+    padding: 50px 0;
+}
+.footer .home-social
+{
+    text-align: center;
+}
+
+.footer ul{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}
 
