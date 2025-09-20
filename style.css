@@ -13,6 +13,11 @@
     background-color: black;
 
 }
+#menu-btn{
+    font-size: 3.5rem;
+    color: #f9004d;
+    display: none;
+}
 nav
 {
     display: flex;
@@ -103,6 +108,7 @@ section{
     letter-spacing: 1px;
 }
 .home-content p{
+    width: 600px;
     color: darkgray;
     padding-top: 2rem;
     font-size: 1rem;
@@ -120,6 +126,14 @@ section{
     text-decoration: none;
     border: 2px solid #f9004d;
     border-radius: 2rem;
+    transition: 0.5s;
+}
+
+.home-social a:hover{
+    color: blanchedalmond;
+    border: 3px solid #f9004d;
+    transform: scale(1.1);
+
 }
 
 .home-content .btn{
@@ -420,4 +434,6 @@ section{
     color: white;
     text-align: center;
 }
+
+
 
