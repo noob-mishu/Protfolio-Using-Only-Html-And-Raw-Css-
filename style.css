@@ -435,5 +435,17 @@ section{
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    #menu-btn{
+        display: block;
+    }
+
+    nav{
+        
+    }
+}
+
+
+
 
 
