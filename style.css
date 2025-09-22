@@ -6,18 +6,7 @@
 }
 
 
-.home
-{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
 
-}
-#menu-btn{
-    font-size: 3.5rem;
-    color: #f9004d;
-    display: none;
-}
 nav
 {
     display: flex;
@@ -81,9 +70,23 @@ nav ul li a:hover{
 section{
     min-height: 100vh;
     padding: 10rem 15%;
+    background-color: black;
+    
 }
 
-.home{
+.home
+{
+    height: 100vh;
+    width: 100%;
+
+}
+#menu-btn{
+    font-size: 3.5rem;
+    color: #f9004d;
+    display: none;
+}
+
+#home{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,6 +144,7 @@ section{
     margin-top: 1rem;
     margin-right: 1rem;
 }
+
 .about{
     width: 100%;
     padding: 100px 0;
@@ -440,9 +444,41 @@ section{
         display: block;
     }
 
-    nav{
-        
+    .home{
+        flex-direction: column-reverse;
+        padding: 4rem;
     }
+    .home-content{
+        align-items: center;
+        justify-content: center;
+        gap: 1;
+    }
+
+    .home-content h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .home-content h4{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .home-content h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .home-content h4{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .home-img{
+        width: 50%;
+        height: 50%;
+    }
+
+
 }
 
 
